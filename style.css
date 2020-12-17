@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("//db.onlinewebfonts.com/c/3a47f5f06b5484abfeee9eac90348a9c?family=Gotham");
+
+* {
+	font-family: "Gotham";
+	/* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+
+	/* background-size: cover;  */
+}
+
+body {
+	background-image: url(./assets/MYKUJTESA_bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+	max-width: 1700px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0 40px;
+	/* height: 100%; */
+}
+
+.header {
+	margin: 75px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+input[type="radio"] + span:before {
+	font-family: "FontAwesome";
+	padding-right: 3px;
+	font-size: 20px;
+}
+
+input[type="radio"] + span:before {
+	content: "\f058"; /* circle-blank */
+	margin-right: 0.3em;
+}
+
+input[type="radio"]:checked + span:before {
+	content: "\f058"; /* circle */
+	color: rgb(204, 32, 32);
+}
+
+.desc {
+	font-size: 32px;
+}
+
+.total {
+	font-size: 32px;
+}
+
+.logo img {
+	width: 200px;
+}
+
+.title {
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.title h1 {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.footer {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hint {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.star {
+	margin: 0 20px;
+}
+
+.recomandations {
+	font-size: 20px;
+	color: rgb(208, 155, 65);
+	font-weight: bolder;
+}
+
+.myorange {
+	outline: 2px solid rgb(208, 155, 65);
+}
+
+.bol {
+	font-weight: bolder;
+}
+
+#phone-label1 i::before {
+	margin-left: 50px;
+}
+
+#mod-label2 i::before {
+	margin-left: 50px;
+}
+
+.orange {
+	/* right: 20px; */
+	color: rgb(208, 155, 65);
+}
+
+.invisible {
+	display: none;
+}
+
+.flex1 {
+	order: 1;
+	flex-basis: 25%;
+}
+
+.flex2 {
+	order: 2;
+	flex-basis: 50%;
+}
+
+.flex3 {
+	order: 3;
+	flex-basis: 25%;
+}
+
+.content {
+	margin-top: 65px;
+}
+
+.content .table .row1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 2px;
+	margin-bottom: 2px;
+}
+
+.content .table .row1 > div {
+	background: #ddd;
+	padding: 0.9em;
+	color: rgb(169, 174, 174);
+}
+
+.content .table .row2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 2px;
+	margin-bottom: 2px;
+	color: rgb(169, 174, 174);
+}
+
+.content .table .row2 > div {
+	background: #ddd;
+	padding: 0.9em;
+}
+
+.content .table .row3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 2px;
+	margin-bottom: 2px;
+	color: rgb(169, 174, 174);
+}
+
+.content .table .row3 > div {
+	background: #ddd;
+	padding: 0.9em;
+}
+
+.content .table .row4 {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	grid-gap: 2px;
+	margin-bottom: 2px;
+	color: rgb(169, 174, 174);
+}
+
+.content .table .row4 > div {
+	background: #ddd;
+	padding: 0.9em;
+}
+
+.content .table .row5 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 2px;
+	margin-bottom: 2px;
+	color: rgb(169, 174, 174);
+}
+
+.content .table .row5 > div {
+	background: #ddd;
+	padding: 0.9em;
+}
+
+.content .table .row6 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 2px;
+	margin-bottom: 2px;
+	color: rgb(169, 174, 174);
+}
+
+.content .table .row6 > div {
+	background: #ddd;
+	padding: 0.9em;
+}
+
+.content .table .row7 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 2px;
+	margin-bottom: 2px;
+}
+
+.content .table .row7 > div {
+	background: #ddd;
+	padding: 0.9em;
+	display: flex;
+	justify-content: space-between;
+}
+
+.radiobutton-container label {
+	cursor: pointer;
+}
+
+.red {
+	color: rgb(204, 32, 19);
+}

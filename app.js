@@ -55,7 +55,7 @@ let s = {rsValue : 0, intValue: 0, modValue:0, simValue: 0, phoneValue:0};
 function shuma(){
   let sum = parseInt(s.rsValue) + parseInt(s.intValue) + parseInt(s.modValue) 
         + parseInt(s.simValue) + parseInt(s.phoneValue);
-  total.innerHTML = sum + '€';
+  total.innerHTML = sum + '<i class="icon-eur icon-size"></i>';
   return sum;
 }
 

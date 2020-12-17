@@ -96,6 +96,10 @@ input[type="radio"]:checked + span:before {
 	margin: 0 20px;
 }
 
+.icon-size {
+	font-size: 28px;
+}
+
 .recomandations {
 	font-size: 20px;
 	color: rgb(208, 155, 65);

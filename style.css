@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-@import url("//db.onlinewebfonts.com/c/3a47f5f06b5484abfeee9eac90348a9c?family=Gotham");
+/* @import url("//db.onlinewebfonts.com/c/3a47f5f06b5484abfeee9eac90348a9c?family=Gotham"); */
+@import url("./Gotham-Font/GothamBold.ttf");
+
+@font-face {
+	font-family: "gothamFont";
+	src: url("./Gotham-Font/GothamBold.ttf");
+}
 
 * {
-	font-family: "Gotham";
+	font-family: "gothamFont";
 	/* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
 	box-sizing: border-box;
 	padding: 0;
